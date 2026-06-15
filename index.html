@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Bikyensub - Airtime, Data Resell &amp; Bill Payments</title>
+  <link rel="icon" href="assets/images/fav.png" />
+  <link rel="stylesheet" href="home/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="home/css/plugins/animate.css" />
+  <link rel="stylesheet" href="home/css/plugins/slick.css" />
+  <link rel="stylesheet" href="home/css/plugins/slick-theme.css" />
+  <link rel="stylesheet" href="home/css/plugins/magnific-popup.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="home/css/main.css" />
+  <style>
+    :root {
+      --primary:#3061ad;--secondary:#2696da;--accent:#10d596;
+      --gradient:linear-gradient(135deg,#3061ad 0%,#2696da 100%);
+    }
+    *{box-sizing:border-box}
+    body{font-family:'Inter',sans-serif;color:#333}
+
+    /* Preloader */
+    .se-pre-con{position:fixed;inset:0;z-index:9999;background:var(--gradient);display:flex;align-items:center;justify-content:center}
+    .se-pre-con::after{content:'';width:44px;height:44px;border:4px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .8s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+
+    /* Navbar */
+    .navbar{background:rgba(18,65,140,.97)!important;backdrop-filter:blur(12px);padding:14px 0!important;border-bottom:1px solid rgba(255,255,255,.1);transition:all .3s}
+    .navbar.scrolled{padding:10px 0!important;box-shadow:0 4px 20px rgba(0,0,0,.25)}
+    .navbar .nav-link{color:rgba(255,255,255,.9)!important;font-weight:500;font-size:.93rem;padding:6px 14px!important;border-radius:6px;transition:background .2s}
+    .navbar .nav-link:hover{background:rgba(255,255,255,.12);color:#fff!important}
+    .navbar .nav-link i{margin-right:6px;font-size:.85em}
+    .btn-nav-account{background:var(--accent);color:#fff!important;padding:8px 20px!important;border-radius:8px;font-weight:600;font-size:.9rem;transition:transform .2s,box-shadow .2s;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+    .btn-nav-account:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(16,213,150,.4);background:#0dc487!important;color:#fff!important;text-decoration:none}
+    .navbar-toggler{border-color:rgba(255,255,255,.4)}
+    .navbar-toggler-icon{filter:invert(1)}
+
+    /* Hero */
+    .hero-section{background:var(--gradient);padding:130px 0 70px;position:relative;overflow:hidden}
+    .hero-section::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat}
+    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.15);backdrop-filter:blur(8px);color:#fff;padding:6px 16px;border-radius:50px;font-size:.85rem;font-weight:600;margin-bottom:18px;border:1px solid rgba(255,255,255,.2)}
+    .hero-badge i{color:var(--accent)}
+    .hero-title{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;color:#fff;line-height:1.2;margin-bottom:16px}
+    .hero-subtitle{color:rgba(255,255,255,.85);font-size:1.05rem;font-weight:400;line-height:1.75;margin-bottom:30px}
+    .hero-btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:10px;font-weight:700;font-size:.92rem;text-decoration:none;transition:all .25s;cursor:pointer;border:none}
+    .hero-btn-primary{background:var(--accent);color:#fff;box-shadow:0 6px 20px rgba(16,213,150,.4)}
+    .hero-btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(16,213,150,.5);color:#fff;text-decoration:none}
+    .hero-btn-outline{background:rgba(255,255,255,.1);color:#fff;border:2px solid rgba(255,255,255,.4)}
+    .hero-btn-outline:hover{background:rgba(255,255,255,.2);color:#fff;text-decoration:none;transform:translateY(-2px)}
+    .hero-img-wrap img{filter:drop-shadow(0 20px 40px rgba(0,0,0,.25));animation:float 4s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+
+    /* Stats */
+    .stats-bar{background:#fff;border-radius:16px;box-shadow:0 -8px 40px rgba(48,97,173,.15);margin-top:-48px;padding:28px 32px;position:relative;z-index:10}
+    .stat-item{text-align:center;padding:8px 16px;border-right:1px solid #e8edf5}
+    .stat-item:last-child{border-right:none}
+    .stat-number{font-size:1.9rem;font-weight:800;color:var(--primary);display:block;line-height:1}
+    .stat-label{font-size:.8rem;color:#888;font-weight:500;margin-top:4px;letter-spacing:.04em;text-transform:uppercase}
+    .stat-icon{width:40px;height:40px;background:linear-gradient(135deg,#e8f0fe,#d0e6fa);border-radius:10px;display:flex;align-items:center;justify-content:center;margin:0 auto 8px;color:var(--primary);font-size:1.1rem}
+
+    /* Section commons */
+    .section-badge{display:inline-block;background:linear-gradient(135deg,#e8f0fe,#d0e6fa);color:var(--primary);padding:5px 16px;border-radius:50px;font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+    .section-title{font-size:clamp(1.6rem,3vw,2.4rem);font-weight:800;color:#1a2744;line-height:1.2}
+    .section-subtitle{color:#666;font-size:1rem;line-height:1.7;max-width:540px;margin:12px auto 0}
+    .divider{width:56px;height:4px;background:var(--gradient);border-radius:4px;margin:16px auto 0}
+
+    /* Service Cards */
+    .services-section{padding:80px 0;background:#f8fafc}
+    .service-card{background:#fff;border-radius:16px;padding:32px 24px;text-align:center;box-shadow:0 2px 16px rgba(48,97,173,.07);border:1px solid #e8edf5;transition:all .3s;height:100%}
+    .service-card:hover{transform:translateY(-6px);box-shadow:0 16px 40px rgba(48,97,173,.15);border-color:var(--secondary)}
+    .service-icon{width:72px;height:72px;background:var(--gradient);border-radius:18px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:1.8rem;color:#fff;box-shadow:0 8px 20px rgba(48,97,173,.3)}
+    .service-card h3{font-size:1.05rem;font-weight:700;color:#1a2744;margin-bottom:10px}
+    .service-card h3 a{color:#1a2744;text-decoration:none}
+    .service-card h3 a:hover{color:var(--primary)}
+    .service-card p{color:#777;font-size:.9rem;line-height:1.6;margin:0}
+
+    /* Make Money */
+    .make-money-section{padding:80px 0;background:#fff}
+    .make-money-tag{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#e8f0fe,#d0e6fa);color:var(--primary);padding:4px 14px;border-radius:50px;font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+    .make-money-section h2{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:800;color:#1a2744;line-height:1.3;margin-bottom:16px}
+    .make-money-section p{color:#666;font-size:.95rem;line-height:1.8}
+    .make-money-img{border-radius:20px;overflow:hidden;box-shadow:0 20px 60px rgba(48,97,173,.2)}
+    .make-money-img img{width:100%;height:auto;display:block}
+
+    /* Benefits */
+    .benefits-section{padding:80px 0;background:linear-gradient(135deg,#0d1b2a 0%,#1a3a6b 100%);position:relative;overflow:hidden}
+    .benefit-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:28px 22px;text-align:center;transition:all .3s;backdrop-filter:blur(8px)}
+    .benefit-card:hover{background:rgba(255,255,255,.1);transform:translateY(-4px);border-color:var(--accent)}
+    .benefit-icon{width:60px;height:60px;background:linear-gradient(135deg,var(--accent),#0dc487);border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:1.4rem;color:#fff;box-shadow:0 6px 16px rgba(16,213,150,.3)}
+    .benefit-card h3{color:#fff;font-size:1rem;font-weight:700;margin-bottom:8px}
+    .benefit-card p{color:rgba(255,255,255,.65);font-size:.88rem;line-height:1.6;margin:0}
+
+    /* Help */
+    .help-section{padding:80px 0;background:#f8fafc}
+    .help-card{background:#fff;border-radius:16px;padding:36px 28px;text-align:center;box-shadow:0 2px 16px rgba(48,97,173,.07);border:1px solid #e8edf5;height:100%;transition:all .3s}
+    .help-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(48,97,173,.14)}
+    .help-card-icon{width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:1.6rem}
+    .help-card-icon.blue{background:linear-gradient(135deg,#e8f0fe,#d0e6fa);color:var(--primary)}
+    .help-card-icon.green{background:linear-gradient(135deg,#d0fae9,#a8f5d5);color:#0dc487}
+    .help-card-icon.orange{background:linear-gradient(135deg,#fde8d8,#fcd0b0);color:#e07d30}
+    .help-card h2{font-size:1.05rem;font-weight:700;color:#1a2744;margin-bottom:10px}
+    .help-card p{color:#777;font-size:.9rem;line-height:1.6;margin-bottom:20px}
+
+    /* CTA */
+    .cta-section{background:var(--gradient);padding:72px 0;position:relative;overflow:hidden;text-align:center}
+    .cta-section::before{content:'';position:absolute;top:-60px;left:-60px;width:250px;height:250px;background:radial-gradient(circle,rgba(255,255,255,.1),transparent 70%);border-radius:50%}
+    .cta-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.15);color:#fff;padding:5px 16px;border-radius:50px;font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px;border:1px solid rgba(255,255,255,.25)}
+    .cta-section h3{color:#fff;font-size:clamp(1.5rem,3vw,2.2rem);font-weight:800;margin-bottom:24px}
+
+    /* Footer */
+    .footer-section{background:#0d1b2a;padding:48px 0 24px;color:rgba(255,255,255,.7)}
+    .footer-brand img{height:50px;border-radius:0 12px 0}
+    .footer-brand p{font-size:.88rem;line-height:1.7;margin-top:14px;color:rgba(255,255,255,.55)}
+    .footer-link-title{color:#fff;font-weight:700;font-size:.85rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:14px}
+    .footer-links{list-style:none;padding:0;margin:0}
+    .footer-links li{margin-bottom:8px}
+    .footer-links a{color:rgba(255,255,255,.55);text-decoration:none;font-size:.87rem;transition:color .2s;display:flex;align-items:center;gap:8px}
+    .footer-links a i{font-size:.75em}
+    .footer-links a:hover{color:var(--accent)}
+    .footer-divider{border-color:rgba(255,255,255,.1);margin:24px 0}
+    .footer-copy{font-size:.83rem;color:rgba(255,255,255,.4)}
+    .social-links{display:flex;gap:10px;margin-top:16px}
+    .social-link{width:36px;height:36px;background:rgba(255,255,255,.08);border-radius:8px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.6);transition:all .2s;font-size:.85rem;text-decoration:none}
+    .social-link:hover{background:var(--accent);color:#fff}
+
+    /* Button */
+    .btn-1{display:inline-flex;align-items:center;gap:8px;padding:11px 22px;background:var(--gradient);color:#fff!important;border-radius:8px;font-weight:600;font-size:.88rem;text-decoration:none;transition:all .25s;border:none;cursor:pointer}
+    .btn-1:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(48,97,173,.35);color:#fff;text-decoration:none}
+    .btn-1-outline{background:transparent!important;border:2px solid var(--primary)!important;color:var(--primary)!important;box-shadow:none!important}
+    .btn-1-outline:hover{background:var(--primary)!important;color:#fff!important}
+
+    @media(max-width:768px){
+      .stats-bar{margin-top:24px}
+      .stat-item{border-right:none;border-bottom:1px solid #e8edf5;padding:12px 8px}
+      .stat-item:last-child{border-bottom:none}
+      .hero-section{padding:110px 0 60px}
+    }
+  </style>
+</head>
+<body>
+  <div class="se-pre-con"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/stanlogo.jpg" style="width:130px;border-radius:0 14px 0;border:2px solid rgba(255,255,255,.3);" alt="Bikyensub" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero"><i class="fa fa-home"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services"><i class="fa fa-th-large"></i>Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#money"><i class="fa fa-coins"></i>Make Money</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact-us.html"><i class="fa fa-envelope"></i>Contact</a></li>
+        </ul>
+        <a href="https://bikyensub.com.ng/easyfinder/dashboard/login" class="btn-nav-account ml-3">
+          <i class="fa fa-user-circle"></i> My Account
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-5 mb-md-0">
+          <div class="hero-badge"><i class="fa fa-bolt"></i> Nigeria's #1 VTU Platform</div>
+          <h1 class="hero-title wow fadeInUp">Welcome to<br /><span style="color:var(--accent)">Bikyensub</span></h1>
+          <p class="hero-subtitle wow fadeInUp" data-wow-delay=".1s">
+            Nigeria's topmost enterprise solution to your telecom needs.<br />
+            Airtime, DATA, Cable Subscriptions (DSTV, GOTV, Startimes), and more.
+          </p>
+          <div class="wow fadeInUp d-flex flex-wrap" data-wow-delay=".2s" style="gap:12px">
+            <a href="https://bikyensub.com.ng/easyfinder/dashboard/login" class="hero-btn hero-btn-primary"><i class="fa fa-sign-in-alt"></i> Login Now</a>
+            <a href="https://bikyensub.com.ng/easyfinder/dashboard/register" class="hero-btn hero-btn-outline"><i class="fa fa-user-plus"></i> Create Account</a>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <div class="wow fadeInRight">
+            <img src="home/img/slider.png" alt="Bikyensub VTU" class="img-fluid" style="filter:drop-shadow(0 20px 40px rgba(0,0,0,.25));animation:float 4s ease-in-out infinite" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <div class="container">
+    <div class="stats-bar wow fadeInUp">
+      <div class="row text-center">
+        <div class="col-6 col-md-3 stat-item">
+          <div class="stat-icon"><i class="fa fa-users"></i></div>
+          <span class="stat-number"><span class="counter">155</span>K+</span>
+          <div class="stat-label">Clients</div>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <div class="stat-icon"><i class="fa fa-wallet"></i></div>
+          <span class="stat-number">&#8358;<span class="counter">3</span>.75M</span>
+          <div class="stat-label">Invested</div>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <div class="stat-icon"><i class="fa fa-chart-line"></i></div>
+          <span class="stat-number"><span class="counter">16</span>%</span>
+          <div class="stat-label">Growth p.a</div>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <div class="stat-icon"><i class="fa fa-headset"></i></div>
+          <span class="stat-number"><span class="counter">20</span>+</span>
+          <div class="stat-label">Hrs Support</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-badge"><i class="fa fa-star"></i> What We Offer</div>
+        <h2 class="section-title">Virtual Top Up Services</h2>
+        <p class="section-subtitle">Electronic vending of Airtime, Data, and Bill Payments at the best rates</p>
+        <div class="divider"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-card wow fadeInUp">
+            <div class="service-icon"><i class="fa fa-wifi"></i></div>
+            <h3><a href="https://bikyensub.com.ng/easyfinder/dashboard/login">Buy Cheap Data Online</a></h3>
+            <p>Buy cheap mobile data at an affordable rate across all networks.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-card wow fadeInUp" data-wow-delay=".1s">
+            <div class="service-icon"><i class="fa fa-mobile-alt"></i></div>
+            <h3><a href="https://bikyensub.com.ng/easyfinder/dashboard/login">Buy Airtime</a></h3>
+            <p>Get up to 5% discount instantly when you purchase airtime on any network.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-card wow fadeInUp" data-wow-delay=".2s">
+            <div class="service-icon"><i class="fa fa-comment-dots"></i></div>
+            <h3><a href="https://bikyensub.com.ng/easyfinder/dashboard/login">Send Bulk SMS</a></h3>
+            <p>Send BulkSMS to any DND number. Fast and instant delivery.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-card wow fadeInUp" data-wow-delay=".3s">
+            <div class="service-icon"><i class="fa fa-tv"></i></div>
+            <h3><a href="https://bikyensub.com.ng/easyfinder/dashboard/login">Cable TV Subscriptions</a></h3>
+            <p>Pay DSTV, GOTV &amp; Startimes Cable TV bills at home and make commission.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-card wow fadeInUp">
+            <div class="service-icon"><i class="fa fa-bolt"></i></div>
+            <h3><a href="https://bikyensub.com.ng/easyfinder/dashboard/login">Electricity Bills</a></h3>
+            <p>Pay PHED, PHCN, AEDC Abuja electricity bills online instantly.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-card wow fadeInUp" data-wow-delay=".1s">
+            <div class="service-icon"><i class="fa fa-graduation-cap"></i></div>
+            <h3><a href="https://bikyensub.com.ng/easyfinder/dashboard/login">Exam Pins &amp; Result</a></h3>
+            <p>Buy WAEC, NECO scratch cards and result checker PINs instantly.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-card wow fadeInUp" data-wow-delay=".2s">
+            <div class="service-icon"><i class="fa fa-globe"></i></div>
+            <h3><a href="https://bikyensub.com.ng/easyfinder/dashboard/login">Data Reselling</a></h3>
+            <p>Become a cheap data reseller and start earning daily profit.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-card wow fadeInUp" data-wow-delay=".3s">
+            <div class="service-icon"><i class="fa fa-code"></i></div>
+            <h3><a href="#0">Developer API</a></h3>
+            <p>Integrate our VTU APIs into your website or mobile app. Full documentation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-2">
+        <a href="https://bikyensub.com.ng/easyfinder/dashboard/login" class="btn-1">
+          <i class="fa fa-eye"></i> Login to See All Features
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Make Money -->
+  <section class="make-money-section" id="money">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0 wow fadeInLeft">
+          <div class="make-money-img"><img src="home/img/project-img.png" alt="Make Money VTU" /></div>
+        </div>
+        <div class="col-md-6 wow fadeInRight">
+          <div class="make-money-tag"><i class="fa fa-money-bill-wave"></i> Mobile Banking</div>
+          <h2>VTU Business in Nigeria and<br />Data Reselling</h2>
+          <p>Make money as a cheap data reseller, buy WAEC scratch card online and resell to earn up to &#8358;1,000 in profits per sale. Start with little capital and focus on earning while we handle the messy jobs.</p>
+          <p class="mt-2">Pay bills, PHED online payment, PHCN, AEDC Abuja online payment and earn commissions or charge clients &#8358;100 extra. Start your own MTN SME website or business like clubkonnect, mobilenig.</p>
+          <div class="mt-4 d-flex flex-wrap" style="gap:12px">
+            <a href="https://bikyensub.com.ng/easyfinder/dashboard/login" class="btn-1"><i class="fa fa-rocket"></i> Get Started</a>
+            <a href="reseller.html" class="btn-1 btn-1-outline"><i class="fa fa-store"></i> Become Reseller</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="benefits-section" id="benefits">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-badge" style="background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.2)">Why Choose Us</div>
+        <h2 class="section-title" style="color:#fff">Benefits of Bikyensub</h2>
+        <p class="section-subtitle" style="color:rgba(255,255,255,.7)">Built for Nigerian VTU resellers — fast, reliable, and profitable.</p>
+        <div class="divider" style="background:var(--accent)"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4"><div class="benefit-card wow fadeInUp"><div class="benefit-icon"><i class="fa fa-chart-bar"></i></div><h3>Track Sales</h3><p>Access all sales references. Get a clear audit on what VTU product makes you the most profit.</p></div></div>
+        <div class="col-md-4 col-sm-6 mb-4"><div class="benefit-card wow fadeInUp" data-wow-delay=".1s"><div class="benefit-icon"><i class="fa fa-lightbulb"></i></div><h3>Innovation</h3><p>The only platform that allows suggestions. We keep adding unique products continuously.</p></div></div>
+        <div class="col-md-4 col-sm-6 mb-4"><div class="benefit-card wow fadeInUp" data-wow-delay=".2s"><div class="benefit-icon"><i class="fa fa-robot"></i></div><h3>Automated Delivery</h3><p>Data, DSTV, Startimes, GOTV, electricity — all products are fully automated and instant.</p></div></div>
+        <div class="col-md-4 col-sm-6 mb-4"><div class="benefit-card wow fadeInUp"><div class="benefit-icon"><i class="fa fa-coins"></i></div><h3>Change Wahala Solved</h3><p>Solve the problem of looking for change. Type any airtime amount and we deliver instantly.</p></div></div>
+        <div class="col-md-4 col-sm-6 mb-4"><div class="benefit-card wow fadeInUp" data-wow-delay=".1s"><div class="benefit-icon"><i class="fa fa-headset"></i></div><h3>Customer Support</h3><p>Best VTU support in Nigeria. Resolve your issues ASAP via WhatsApp — anytime.</p></div></div>
+        <div class="col-md-4 col-sm-6 mb-4"><div class="benefit-card wow fadeInUp" data-wow-delay=".2s"><div class="benefit-icon"><i class="fa fa-server"></i></div><h3>99.9% Uptime</h3><p>Our platform is always available. Products available even at midnight — no downtime.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Help -->
+  <section class="help-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-badge">We Are Here For You</div>
+        <h2 class="section-title">We are here to help you</h2>
+        <p class="section-subtitle">Our mission is to deliver best service in the quickest amount of time.</p>
+        <div class="divider"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4"><div class="help-card wow fadeInUp"><div class="help-card-icon blue"><i class="fa fa-headset"></i></div><h2>Customer Support</h2><p>Reach us easily for complaints, suggestions, feedback or unresolved issues.</p><a href="contact-us.html" class="btn-1"><i class="fa fa-arrow-right"></i> Contact Us</a></div></div>
+        <div class="col-md-4 mb-4"><div class="help-card wow fadeInUp" data-wow-delay=".1s"><div class="help-card-icon green"><i class="fa fa-store"></i></div><h2>Create Aggregator Account</h2><p>With your new website you can sell data, airtime, pay bills at your own price and make profit.</p><a href="reseller.html" class="btn-1"><i class="fa fa-rocket"></i> Get Started</a></div></div>
+        <div class="col-md-4 mb-4"><div class="help-card wow fadeInUp" data-wow-delay=".2s"><div class="help-card-icon orange"><i class="fa fa-code"></i></div><h2>Are You a Developer?</h2><p>Integrate our APIs: VTU Airtime, Data, Startimes, DStv, Gotv and Electricity API available.</p><a href="#0" class="btn-1"><i class="fa fa-plug"></i> API Docs</a></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container" style="position:relative;z-index:1">
+      <div class="cta-badge"><i class="fa fa-star"></i> Get Started Today</div>
+      <h3>Launch your free account.<br />Less than 2 minutes.</h3>
+      <a href="https://bikyensub.com.ng/easyfinder/dashboard/register" class="hero-btn hero-btn-outline" style="display:inline-flex">
+        <i class="fa fa-user-plus"></i> Create Free Account
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 footer-brand">
+          <img src="assets/images/stanlogo.jpg" alt="Bikyensub" />
+          <p>Nigeria's topmost VTU enterprise solution. Buy cheap data, airtime, pay bills and earn commissions.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-6 mb-4">
+          <div class="footer-link-title">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa fa-chevron-right"></i>Home</a></li>
+            <li><a href="#services"><i class="fa fa-chevron-right"></i>Services</a></li>
+            <li><a href="reseller.html"><i class="fa fa-chevron-right"></i>Reseller</a></li>
+            <li><a href="contact-us.html"><i class="fa fa-chevron-right"></i>Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+          <div class="footer-link-title">Our Services</div>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fa fa-chevron-right"></i>Data Topup</a></li>
+            <li><a href="#"><i class="fa fa-chevron-right"></i>Airtime</a></li>
+            <li><a href="#"><i class="fa fa-chevron-right"></i>Cable TV</a></li>
+            <li><a href="#"><i class="fa fa-chevron-right"></i>Electricity</a></li>
+            <li><a href="#"><i class="fa fa-chevron-right"></i>Exam Pins</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="footer-link-title">Contact Us</div>
+          <ul class="footer-links">
+            <li><a href="mailto:support@bikyensub.com.ng"><i class="fa fa-envelope"></i>support@bikyensub.com.ng</a></li>
+            <li><a href="#"><i class="fab fa-whatsapp"></i>WhatsApp Support</a></li>
+            <li><a href="https://bikyensub.com.ng/easyfinder/dashboard/login"><i class="fa fa-sign-in-alt"></i>Login</a></li>
+            <li><a href="https://bikyensub.com.ng/easyfinder/dashboard/register"><i class="fa fa-user-plus"></i>Register</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <div class="d-flex justify-content-between align-items-center flex-wrap">
+        <p class="footer-copy mb-1">&copy; 2026 Bikyensub. All Rights Reserved &mdash; Intellisense Vivid Technologies</p>
+        <p class="footer-copy mb-1"><a href="policy.html" style="color:rgba(255,255,255,.4);text-decoration:none">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="home/js/jquery-3.3.1.min.js"></script>
+  <script src="home/js/bootstrap.min.js"></script>
+  <script src="home/js/plugins/wow.min.js"></script>
+  <script src="home/js/plugins/jquery.counterup.min.js"></script>
+  <script src="home/js/plugins/waypoints.min.js"></script>
+  <script src="home/js/plugins/slick.min.js"></script>
+  <script src="home/js/plugins/magnific-popup.min.js"></script>
+  <script src="home/js/main.js"></script>
+  <script>
+    $(window).on('load',function(){$('.se-pre-con').fadeOut(400)});
+    $(window).on('scroll',function(){if($(this).scrollTop()>60){$('#mainNav').addClass('scrolled')}else{$('#mainNav').removeClass('scrolled')}});
+    $('.counter').counterUp({delay:10,time:1000});
+    new WOW().init();
+  </script>
+</body>
+</html>
