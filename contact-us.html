@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Contact Us | Bikyensub</title>
+  <link rel="icon" href="assets/images/fav.png" />
+  <link rel="stylesheet" href="home/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root{--primary:#3061ad;--secondary:#2696da;--accent:#10d596;--gradient:linear-gradient(135deg,#3061ad,#2696da)}
+    *{box-sizing:border-box}
+    body{font-family:'Inter',sans-serif;background:#f8fafc;margin:0;padding:0}
+    /* Navbar */
+    .topnav{background:linear-gradient(135deg,#0d1b2a,#3061ad);padding:14px 0;position:sticky;top:0;z-index:1000;box-shadow:0 2px 16px rgba(0,0,0,.2)}
+    .topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+    .topnav .brand img{height:46px;border-radius:0 12px 0;border:2px solid rgba(255,255,255,.25)}
+    .topnav .nav-links{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+    .topnav .nav-links a{color:rgba(255,255,255,.85);text-decoration:none;font-size:.88rem;font-weight:500;padding:6px 12px;border-radius:6px;transition:background .2s;display:flex;align-items:center;gap:6px}
+    .topnav .nav-links a:hover{background:rgba(255,255,255,.12);color:#fff}
+    .topnav .nav-links a.btn-account{background:var(--accent);color:#fff;padding:7px 16px;border-radius:8px;font-weight:600}
+    .topnav .nav-links a.btn-account:hover{background:#0dc487}
+    /* Hero Banner */
+    .page-hero{background:var(--gradient);padding:56px 0;position:relative;overflow:hidden}
+    .page-hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat}
+    .page-hero h1{color:#fff;font-size:2.2rem;font-weight:800;margin:0 0 8px}
+    .page-hero p{color:rgba(255,255,255,.75);font-size:1rem;margin:0}
+    .breadcrumb-wrap{display:flex;align-items:center;gap:6px;margin-top:12px;font-size:.85rem;color:rgba(255,255,255,.6)}
+    .breadcrumb-wrap a{color:rgba(255,255,255,.75);text-decoration:none}
+    .breadcrumb-wrap a:hover{color:#fff}
+    .breadcrumb-wrap span{color:var(--accent)}
+    /* Main */
+    .main-content{padding:60px 0}
+    .contact-card{background:#fff;border-radius:20px;padding:36px 32px;box-shadow:0 4px 24px rgba(48,97,173,.08);border:1px solid #e8edf5;height:100%}
+    .contact-info-item{display:flex;align-items:flex-start;gap:16px;padding:18px 0;border-bottom:1px solid #f0f4f8}
+    .contact-info-item:last-child{border-bottom:none}
+    .contact-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0}
+    .contact-icon.green{background:linear-gradient(135deg,#d0fae9,#a8f5d5);color:#0dc487}
+    .contact-icon.blue{background:linear-gradient(135deg,#e8f0fe,#d0e6fa);color:var(--primary)}
+    .contact-icon.orange{background:linear-gradient(135deg,#fde8d8,#fcd0b0);color:#e07d30}
+    .contact-icon.purple{background:linear-gradient(135deg,#f3eeff,#e0d0ff);color:#6f42c1}
+    .contact-info-item h4{font-size:.95rem;font-weight:700;color:#1a2744;margin:0 0 4px}
+    .contact-info-item p,.contact-info-item a{font-size:.9rem;color:#666;margin:0;text-decoration:none;line-height:1.6}
+    .contact-info-item a:hover{color:var(--primary)}
+    /* Channels */
+    .channel-card{background:#fff;border-radius:16px;padding:24px;text-align:center;box-shadow:0 2px 12px rgba(48,97,173,.07);border:1px solid #e8edf5;transition:all .3s;height:100%}
+    .channel-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(48,97,173,.14)}
+    .channel-icon{width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:1.4rem}
+    .channel-card h4{font-size:.95rem;font-weight:700;color:#1a2744;margin-bottom:8px}
+    .channel-card p{font-size:.85rem;color:#777;line-height:1.6;margin-bottom:14px}
+    .btn-channel{display:inline-flex;align-items:center;gap:6px;padding:9px 18px;border-radius:8px;font-weight:600;font-size:.85rem;text-decoration:none;transition:all .25s;border:none;cursor:pointer}
+    .btn-green{background:linear-gradient(135deg,#10d596,#0dc487);color:#fff;box-shadow:0 4px 12px rgba(16,213,150,.3)}
+    .btn-green:hover{transform:translateY(-1px);box-shadow:0 8px 20px rgba(16,213,150,.4);color:#fff;text-decoration:none}
+    .btn-primary-mod{background:var(--gradient);color:#fff;box-shadow:0 4px 12px rgba(48,97,173,.3)}
+    .btn-primary-mod:hover{transform:translateY(-1px);box-shadow:0 8px 20px rgba(48,97,173,.35);color:#fff;text-decoration:none}
+    /* FAQ */
+    .faq-section{background:#fff;border-radius:20px;padding:36px 32px;box-shadow:0 4px 24px rgba(48,97,173,.08);border:1px solid #e8edf5;margin-top:32px}
+    .faq-item{border-bottom:1px solid #f0f4f8;padding:16px 0}
+    .faq-item:last-child{border-bottom:none;padding-bottom:0}
+    .faq-q{font-size:.93rem;font-weight:700;color:#1a2744;display:flex;align-items:center;gap:10px;margin-bottom:8px}
+    .faq-q i{color:var(--accent)}
+    .faq-a{font-size:.88rem;color:#666;line-height:1.7;margin:0;padding-left:26px}
+    /* Footer */
+    footer{background:#0d1b2a;color:rgba(255,255,255,.6);padding:28px 0;text-align:center;font-size:.85rem}
+    footer a{color:var(--accent);text-decoration:none}
+    @media(max-width:768px){.topnav .container{justify-content:center}.topnav .nav-links{justify-content:center}}
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="topnav">
+    <div class="container">
+      <a href="index.html" class="brand"><img src="assets/images/stanlogo.jpg" alt="Bikyensub" /></a>
+      <div class="nav-links">
+        <a href="index.html"><i class="fa fa-home"></i>Home</a>
+        <a href="reseller.html"><i class="fa fa-store"></i>Reseller</a>
+        <a href="contact-us.html"><i class="fa fa-envelope"></i>Contact</a>
+        <a href="https://bikyensub.com.ng/easyfinder/dashboard/login" class="btn-account"><i class="fa fa-user-circle"></i> My Account</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="page-hero">
+    <div class="container">
+      <h1><i class="fa fa-headset" style="margin-right:12px;color:var(--accent)"></i>Contact Us</h1>
+      <p>We're here to help. Reach out via WhatsApp, email, or phone — we respond fast!</p>
+      <div class="breadcrumb-wrap">
+        <a href="index.html"><i class="fa fa-home"></i> Home</a>
+        <i class="fa fa-chevron-right" style="font-size:.7rem"></i>
+        <span>Contact Us</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="container">
+      <div class="row">
+
+        <!-- Contact Details -->
+        <div class="col-md-5 mb-4">
+          <div class="contact-card">
+            <h3 style="font-size:1.2rem;font-weight:800;color:#1a2744;margin-bottom:4px"><i class="fa fa-address-card" style="color:var(--accent);margin-right:8px"></i>Get in Touch</h3>
+            <p style="color:#888;font-size:.88rem;margin-bottom:24px">Reach us through any channel below for quick assistance.</p>
+
+            <div class="contact-info-item">
+              <div class="contact-icon green"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <h4>WhatsApp (Recommended)</h4>
+                <a href="https://wa.me/2349119353208">+234 911 935 3208</a>
+                <p>Fastest way to reach us — replies within minutes</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon blue"><i class="fa fa-envelope"></i></div>
+              <div>
+                <h4>Email Support</h4>
+                <a href="mailto:support@bikyensub.com.ng">support@bikyensub.com.ng</a>
+                <p>For detailed queries, billing, and business inquiries</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon orange"><i class="fa fa-phone"></i></div>
+              <div>
+                <h4>Telephone</h4>
+                <a href="tel:09119353208">09119353208</a>
+                <p>Mon–Sat, 8am–8pm WAT</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon purple"><i class="fa fa-map-marker-alt"></i></div>
+              <div>
+                <h4>Office Address</h4>
+                <p>Albarka Plaza A17 Farm Center,<br>Kano State, Nigeria</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Support Channels -->
+        <div class="col-md-7 mb-4">
+          <div class="contact-card">
+            <h3 style="font-size:1.2rem;font-weight:800;color:#1a2744;margin-bottom:4px"><i class="fa fa-life-ring" style="color:var(--accent);margin-right:8px"></i>Support Channels</h3>
+            <p style="color:#888;font-size:.88rem;margin-bottom:24px">Pick your preferred way to reach our team</p>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <div class="channel-card">
+                  <div class="channel-icon" style="background:linear-gradient(135deg,#d0fae9,#a8f5d5);color:#0dc487"><i class="fab fa-whatsapp"></i></div>
+                  <h4>WhatsApp Chat</h4>
+                  <p>Click to start a WhatsApp chat with our support team instantly</p>
+                  <a href="https://wa.me/2349119353208" class="btn-channel btn-green"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="channel-card">
+                  <div class="channel-icon" style="background:linear-gradient(135deg,#e8f0fe,#d0e6fa);color:var(--primary)"><i class="fa fa-user-circle"></i></div>
+                  <h4>My Dashboard</h4>
+                  <p>Already registered? Login to your dashboard to check transactions &amp; wallet</p>
+                  <a href="https://bikyensub.com.ng/easyfinder/dashboard/login" class="btn-channel btn-primary-mod"><i class="fa fa-sign-in-alt"></i> Go to Dashboard</a>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="channel-card">
+                  <div class="channel-icon" style="background:linear-gradient(135deg,#fde8d8,#fcd0b0);color:#e07d30"><i class="fa fa-envelope"></i></div>
+                  <h4>Email Us</h4>
+                  <p>Send us a detailed message and we'll reply within 2–4 hours</p>
+                  <a href="mailto:support@bikyensub.com.ng" class="btn-channel" style="background:linear-gradient(135deg,#e07d30,#f5944a);color:#fff;box-shadow:0 4px 12px rgba(224,125,48,.3)"><i class="fa fa-envelope"></i> Send Email</a>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="channel-card">
+                  <div class="channel-icon" style="background:linear-gradient(135deg,#f3eeff,#e0d0ff);color:#6f42c1"><i class="fa fa-user-plus"></i></div>
+                  <h4>New Account</h4>
+                  <p>Not yet registered? Create your free Bikyensub account now</p>
+                  <a href="https://bikyensub.com.ng/easyfinder/dashboard/register" class="btn-channel" style="background:linear-gradient(135deg,#6f42c1,#9b59b6);color:#fff;box-shadow:0 4px 12px rgba(111,66,193,.3)"><i class="fa fa-rocket"></i> Register Free</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div class="faq-section">
+        <h3 style="font-size:1.2rem;font-weight:800;color:#1a2744;margin-bottom:4px"><i class="fa fa-circle-question" style="color:var(--accent);margin-right:8px"></i>Frequently Asked Questions</h3>
+        <p style="color:#888;font-size:.88rem;margin-bottom:24px">Quick answers to common questions</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="faq-item">
+              <div class="faq-q"><i class="fa fa-circle-check"></i> How do I fund my wallet?</div>
+              <p class="faq-a">Login to your dashboard, click "Fund Wallet" and pay via bank transfer or card. Your wallet is credited automatically.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q"><i class="fa fa-circle-check"></i> Why wasn't my data delivered?</div>
+              <p class="faq-a">Failed transactions are auto-reversed within minutes. If not, contact us on WhatsApp with your transaction reference.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q"><i class="fa fa-circle-check"></i> How do I become a reseller?</div>
+              <p class="faq-a">Register a free account, fund your wallet, and contact us on WhatsApp to upgrade to a reseller account.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="faq-item">
+              <div class="faq-q"><i class="fa fa-circle-check"></i> What networks are supported?</div>
+              <p class="faq-a">We support MTN, Airtel, GLO, and 9mobile for airtime and data. Cable TV: DSTV, GOTV, Startimes.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q"><i class="fa fa-circle-check"></i> Is my payment information safe?</div>
+              <p class="faq-a">Yes. All transactions are encrypted and processed through secure payment gateways with SSL protection.</p>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q"><i class="fa fa-circle-check"></i> Can I get a developer API?</div>
+              <p class="faq-a">Yes! We provide VTU API for developers. Contact us on WhatsApp to get your API credentials and documentation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Bikyensub &mdash; Intellisense Vivid Technologies &mdash; <a href="policy.html">Privacy Policy</a></p>
+    </div>
+  </footer>
+</body>
+</html>
