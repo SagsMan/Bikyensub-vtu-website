@@ -257,15 +257,15 @@
     <!-- Right — sliding hero images -->
     <div class="hero-img-wrap">
       <div id="slide1" style="position:relative">
-        <img src="home/img/slider.png" alt="Bikyensub VTU"/>
+        <img src="home/img/slider.png" alt="Bikyensub VTU" onerror="this.style.display='none'"/>
         <div class="slide-label"><p id="slide-label">🔥 Cheapest Data in Nigeria</p><span>MTN SME 1GB from just ₦285</span></div>
       </div>
       <div id="slide2" class="hero-slide" style="opacity:0;position:absolute;inset:0">
-        <img src="home/img/slider-img.png" alt="Buy Data" style="width:100%;display:block;max-height:380px;object-fit:cover"/>
+        <img src="home/img/slider-img.png" alt="Buy Data" style="width:100%;display:block;max-height:380px;object-fit:cover" onerror="this.style.display='none'"/>
         <div class="slide-label"><p>💡 No Hidden Charges</p><span>What you see is what you pay</span></div>
       </div>
       <div id="slide3" class="hero-slide" style="opacity:0;position:absolute;inset:0">
-        <img src="home/img/project-img.png" alt="Pay Bills" style="width:100%;display:block;max-height:380px;object-fit:cover"/>
+        <img src="home/img/project-img.png" alt="Pay Bills" style="width:100%;display:block;max-height:380px;object-fit:cover" onerror="this.style.display='none'"/>
         <div class="slide-label"><p>💰 Earn as a Reseller</p><span>Up to 5% commission on every sale</span></div>
       </div>
     </div>
@@ -399,7 +399,7 @@
   <div class="sec-wrap">
     <div class="mm-grid">
       <div class="mm-img">
-        <img src="home/img/project-img.png" alt="Make Money with Bikyensub"/>
+        <img src="home/img/project-img.png" alt="Make Money with Bikyensub" onerror="this.style.display='none'"/>
       </div>
       <div class="mm-content">
         <div class="tag" style="margin-bottom:20px"><i class="fa fa-coins"></i> Reseller Program</div>
@@ -541,8 +541,10 @@
 </footer>
 
 <script>
-// Preloader
-window.addEventListener('load',()=>{setTimeout(()=>document.getElementById('preloader').classList.add('done'),400)});
+// Preloader — dismiss on load OR after 3 s max, whichever comes first
+function dismissPreloader(){var e=document.getElementById('preloader');if(e&&!e.classList.contains('done'))e.classList.add('done');}
+var _preloaderTimer=setTimeout(dismissPreloader,3000);
+window.addEventListener('load',function(){clearTimeout(_preloaderTimer);setTimeout(dismissPreloader,400);});
 
 // Hero image slider
 let slides=['slide1','slide2','slide3'],labels=['🔥 Cheapest Data in Nigeria — MTN SME 1GB ₦285','💡 No Hidden Charges — What you see is what you pay','💰 Earn as a Reseller — Up to 5% commission per sale'],cur=0;
