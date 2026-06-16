@@ -1,216 +1,199 @@
 <?php
 require_once '../inc/config.inc.php';
-if(!$UserAuth->is_user_logged_in()){
-if(isset($_POST['signup'])){
-
-$rules = [
-    'email' => ['required','email'],
-    'password' => ['required','equals(:cpassword)'],
-    'cpassword' => ['required'],
-    'sname' => ['required'],
-    'oname' => ['required'],
-    'phone' => ['required','numeric'],
-    'pin' => ['required','numeric'],
-    'state' => ['required']
-];
-
-$validation_result = SimpleValidator\Validator::validate($_POST, $rules);
-if ($validation_result->isSuccess()) {
-if($UserAuth->Apply($_POST)){
- $UserAuth->redirect('./');
-}else{
-array_push($SITE_ERRORS, 'This email has been registered');
-}
+if (!$UserAuth->is_user_logged_in()) {
+    if (isset($_POST['signup'])) {
+        $rules = [
+            'email'    => ['required','email'],
+            'password' => ['required','equals(:cpassword)'],
+            'cpassword'=> ['required'],
+            'sname'    => ['required'],
+            'oname'    => ['required'],
+            'phone'    => ['required','numeric'],
+            'pin'      => ['required','numeric'],
+            'state'    => ['required']
+        ];
+        $validation_result = SimpleValidator\Validator::validate($_POST, $rules);
+        if ($validation_result->isSuccess()) {
+            if ($UserAuth->Apply($_POST)) {
+                $UserAuth->redirect('./');
+            } else {
+                array_push($SITE_ERRORS, 'This email has already been registered');
+            }
+        } else {
+            array_push($SITE_ERRORS, $validation_result->getErrors());
+        }
+    }
 } else {
-array_push($SITE_ERRORS, $validation_result->getErrors());
+    $UserAuth->redirect('./');
 }
-
-}
-}else{
-  $UserAuth->redirect('./');
-}
-
-$PAGE_TITLE   = 'Register Now';
-$URL_NAME     = 'register';
+$PAGE_TITLE = 'Register';
+$URL_NAME   = 'register';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title><?= $PAGE_TITLE." | ".SITE_TITLE ?></title>
-  <link rel="icon" type="image/png" sizes="16x16" href="images/<?=SITE_LOGO?>">
-  <link href="./css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="./vendor/toastr/css/toastr.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title><?= $PAGE_TITLE . ' | ' . SITE_TITLE ?></title>
+  <link rel="icon" type="image/png" href="images/<?= SITE_LOGO ?>"/>
+  <link href="./css/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="./vendor/toastr/css/toastr.min.css"/>
+  <link rel="stylesheet" href="./vendor/jquery-validation/jquery.validate.min.js" as="script"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
   <style>
-    *{box-sizing:border-box}
-    body{font-family:'Inter',sans-serif!important;background:#f0f4f8!important;margin:0;padding:0;min-height:100vh}
-    .auth-wrapper{min-height:100vh;display:flex;align-items:stretch}
-    .auth-left{flex:0 0 40%;background:linear-gradient(145deg,#0d1b2a 0%,#3061ad 60%,#2696da 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:48px 36px;position:relative;overflow:hidden}
-    .auth-left::before{content:'';position:absolute;top:-80px;right:-80px;width:300px;height:300px;background:radial-gradient(circle,rgba(255,255,255,.06),transparent 70%);border-radius:50%}
-    .auth-left::after{content:'';position:absolute;bottom:-60px;left:-60px;width:250px;height:250px;background:radial-gradient(circle,rgba(16,213,150,.1),transparent 70%);border-radius:50%}
+    :root{--green:#10d596;--blue:#2696da;--blue2:#3061ad;--dark:#060C1A;--card:#0D1B2E}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Inter',sans-serif!important;background:var(--dark)!important;min-height:100vh;display:flex;align-items:stretch}
+    .auth-wrap{min-height:100vh;width:100%;display:flex;align-items:stretch}
+    .auth-left{flex:0 0 38%;background:linear-gradient(145deg,#050c1a 0%,#0a1a3a 55%,#0d2451 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:52px 40px;position:relative;overflow:hidden}
+    .auth-left::before{content:'';position:absolute;top:-80px;right:-80px;width:300px;height:300px;background:radial-gradient(circle,rgba(16,213,150,.12),transparent 70%);border-radius:50%}
+    .auth-left::after{content:'';position:absolute;bottom:-60px;left:-60px;width:240px;height:240px;background:radial-gradient(circle,rgba(38,150,218,.1),transparent 70%);border-radius:50%}
     .auth-left-inner{position:relative;z-index:1;text-align:center;width:100%}
-    .auth-left .logo-wrap img{height:70px;border-radius:0 18px 0;border:2px solid rgba(255,255,255,.25);margin-bottom:28px}
-    .auth-left h2{color:#fff;font-size:1.8rem;font-weight:800;line-height:1.2;margin-bottom:10px}
-    .auth-left p{color:rgba(255,255,255,.7);font-size:.93rem;line-height:1.7;margin-bottom:24px}
-    .step-list{display:flex;flex-direction:column;gap:12px;text-align:left}
-    .step-item{display:flex;align-items:flex-start;gap:12px;color:rgba(255,255,255,.85);font-size:.88rem}
-    .step-num{width:28px;height:28px;background:rgba(16,213,150,.25);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#10d596;font-size:.8rem;font-weight:700;flex-shrink:0}
-    .auth-right{flex:1;display:flex;align-items:center;justify-content:center;padding:32px 24px;background:#f0f4f8;overflow-y:auto}
-    .auth-card{background:#fff;border-radius:20px;padding:36px 32px;width:100%;max-width:520px;box-shadow:0 8px 40px rgba(48,97,173,.1)}
-    .auth-card h4{font-size:1.5rem;font-weight:800;color:#1a2744;margin-bottom:4px}
-    .auth-desc{color:#888;font-size:.88rem;margin-bottom:24px}
-    .form-label-modern{font-size:.8rem;font-weight:600;color:#555;letter-spacing:.03em;text-transform:uppercase;margin-bottom:5px;display:block}
-    .input-icon-wrap{position:relative}
-    .input-icon-wrap .field-icon{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:#aaa;font-size:.85rem;z-index:2}
-    .input-icon-wrap .input-modern{padding-left:38px!important;height:46px;border-radius:10px!important;border:1.5px solid #e0e6ef!important;font-size:.9rem;transition:border .2s,box-shadow .2s;width:100%}
-    .input-icon-wrap .input-modern:focus{border-color:#3061ad!important;box-shadow:0 0 0 3px rgba(48,97,173,.1)!important;outline:none}
-    .eye-toggle{position:absolute;right:12px;top:50%;transform:translateY(-50%);color:#aaa;cursor:pointer;font-size:.88rem;z-index:2;background:none;border:none;padding:0}
-    .eye-toggle:hover{color:#3061ad}
-    .btn-register{width:100%;height:50px;background:linear-gradient(135deg,#3061ad,#2696da);color:#fff;border:none;border-radius:10px;font-size:1rem;font-weight:700;cursor:pointer;transition:all .25s;display:flex;align-items:center;justify-content:center;gap:10px}
-    .btn-register:hover{background:linear-gradient(135deg,#2552a0,#1e84c8);box-shadow:0 8px 20px rgba(48,97,173,.35);transform:translateY(-1px)}
-    .link-accent{color:#10d596!important;font-weight:600}
-    .link-accent:hover{color:#0dc487!important}
-    .optional-badge{color:#10d596;font-size:.78rem;font-weight:600;margin-left:6px;background:rgba(16,213,150,.1);padding:2px 8px;border-radius:4px}
-    .section-divider{color:#bbb;font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin:20px 0 14px;display:flex;align-items:center;gap:10px}
-    .section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:#e8edf5}
-    @media(max-width:768px){.auth-left{display:none}.auth-right{padding:20px 14px}}
+    .auth-logo{height:68px;border-radius:0 18px 0;border:2px solid rgba(16,213,150,.4);margin-bottom:24px;max-width:190px}
+    .auth-left h2{color:#fff;font-size:1.7rem;font-weight:900;line-height:1.2;margin-bottom:8px}
+    .auth-left p{color:rgba(255,255,255,.55);font-size:.88rem;line-height:1.75;margin-bottom:24px}
+    .step-item{display:flex;align-items:flex-start;gap:10px;margin-bottom:14px;text-align:left}
+    .step-num{width:28px;height:28px;background:rgba(16,213,150,.2);border:1px solid rgba(16,213,150,.35);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--green);font-size:.8rem;font-weight:800;flex-shrink:0}
+    .step-text{color:rgba(255,255,255,.7);font-size:.85rem;line-height:1.5}
+    .tag{display:inline-flex;align-items:center;gap:5px;background:rgba(16,213,150,.1);border:1px solid rgba(16,213,150,.3);color:var(--green);padding:4px 12px;border-radius:50px;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:18px}
+    .auth-right{flex:1;display:flex;align-items:center;justify-content:center;padding:32px 24px;background:linear-gradient(135deg,#07101e,#0a1628);overflow-y:auto}
+    .auth-card{width:100%;max-width:500px}
+    .auth-card h3{color:#fff;font-size:1.45rem;font-weight:900;margin-bottom:3px}
+    .auth-card .sub{color:rgba(255,255,255,.4);font-size:.87rem;margin-bottom:24px}
+    .alert-dark{background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.3);border-radius:10px;padding:11px 14px;font-size:.84rem;color:#fca5a5;display:flex;align-items:center;gap:7px;margin-bottom:18px}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .form-lbl{font-size:.75rem;font-weight:600;color:rgba(255,255,255,.5);letter-spacing:.04em;text-transform:uppercase;display:block;margin-bottom:6px}
+    .input-wrap{position:relative;margin-bottom:16px}
+    .field-ico{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:rgba(255,255,255,.3);font-size:.85rem;z-index:2}
+    .field-input{width:100%;height:47px;background:rgba(255,255,255,.05)!important;border:1.5px solid rgba(255,255,255,.1)!important;border-radius:11px!important;color:#fff!important;font-size:.9rem!important;padding-left:40px!important;padding-right:12px!important;transition:border .2s,box-shadow .2s;font-family:'Inter',sans-serif!important}
+    .field-input::placeholder{color:rgba(255,255,255,.2)!important}
+    .field-input:focus{border-color:var(--green)!important;box-shadow:0 0 0 3px rgba(16,213,150,.1)!important;outline:none!important;background:rgba(16,213,150,.03)!important}
+    .eye-btn{position:absolute;right:12px;top:50%;transform:translateY(-50%);color:rgba(255,255,255,.3);cursor:pointer;font-size:.85rem;background:none;border:none;padding:0;z-index:2;transition:color .2s}
+    .eye-btn:hover{color:var(--green)}
+    .sec-divider{color:rgba(255,255,255,.25);font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;display:flex;align-items:center;gap:10px;margin:18px 0 14px}
+    .sec-divider::before,.sec-divider::after{content:'';flex:1;height:1px;background:rgba(255,255,255,.07)}
+    .opt-badge{color:var(--green);font-size:.72rem;font-weight:600;background:rgba(16,213,150,.1);padding:2px 8px;border-radius:4px;margin-left:6px}
+    .btn-reg{width:100%;height:50px;background:linear-gradient(135deg,var(--green),#059669);color:#fff;border:none;border-radius:12px;font-size:.97rem;font-weight:700;cursor:pointer;transition:all .3s;display:flex;align-items:center;justify-content:center;gap:9px;font-family:'Inter',sans-serif;box-shadow:0 6px 20px rgba(16,213,150,.3)}
+    .btn-reg:hover{transform:translateY(-1px);box-shadow:0 10px 28px rgba(16,213,150,.5)}
+    .login-link{text-align:center;margin-top:16px;font-size:.88rem;color:rgba(255,255,255,.4)}
+    .link-green{color:var(--green);text-decoration:none;font-weight:600}
+    .link-green:hover{color:#0dc487}
+    @media(max-width:768px){.auth-left{display:none}.auth-right{padding:20px 14px}.form-row{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
-<div class="auth-wrapper">
-  <!-- Left Panel -->
+<div class="auth-wrap">
+  <!-- Left Brand Panel -->
   <div class="auth-left">
     <div class="auth-left-inner">
-      <div class="logo-wrap"><img src="./images/<?=SITE_LOGO?>" alt="<?= SITE_TITLE ?>" /></div>
+      <img src="./images/<?= SITE_LOGO ?>" class="auth-logo" alt="<?= SITE_TITLE ?>"
+        onerror="this.outerHTML='<span style=&quot;color:var(--green);font-size:1.4rem;font-weight:900;display:block;margin-bottom:20px&quot;><?= SITE_TITLE ?></span>'"/>
+      <div class="tag">🚀 Free Account</div>
       <h2>Join Bikyensub</h2>
-      <p>Start buying cheap data, airtime &amp; paying bills while earning commissions as a reseller.</p>
-      <div class="step-list">
-        <div class="step-item"><div class="step-num">1</div><span>Fill in your personal details below</span></div>
-        <div class="step-item"><div class="step-num">2</div><span>Create a secure password &amp; transaction PIN</span></div>
-        <div class="step-item"><div class="step-num">3</div><span>Fund your wallet and start buying instantly</span></div>
-        <div class="step-item"><div class="step-num">4</div><span>Earn commissions on every transaction</span></div>
-      </div>
+      <p>Start buying cheap data, paying bills, and earning commissions as a reseller.</p>
+      <div class="step-item"><div class="step-num">1</div><div class="step-text">Fill in your personal details below</div></div>
+      <div class="step-item"><div class="step-num">2</div><div class="step-text">Create a secure password &amp; 4-digit PIN</div></div>
+      <div class="step-item"><div class="step-num">3</div><div class="step-text">Fund your wallet and start buying instantly</div></div>
+      <div class="step-item"><div class="step-num">4</div><div class="step-text">Earn commissions on every transaction daily</div></div>
     </div>
   </div>
-  <!-- Right Panel -->
+
+  <!-- Right Form Panel -->
   <div class="auth-right">
     <div class="auth-card">
-      <h4>Create Account</h4>
-      <p class="auth-desc">Fill in your details to get started — it's free!</p>
+      <h3>Create Account</h3>
+      <p class="sub">Fill in your details to get started — it's completely free!</p>
 
-      <div id="response_status">
-        <?php if (count($SITE_ERRORS) > 0): ?>
-          <?php foreach ($SITE_ERRORS as $error): ?>
-            <div class="alert alert-danger d-flex align-items-center mb-3" style="border-radius:10px;font-size:.87rem;gap:8px">
-              <i class="fa fa-circle-exclamation"></i> <?= $error ?>
-            </div>
-          <?php endforeach ?>
-        <?php endif ?>
-        <?php if (count($SITE_SUCCESS) > 0): ?>
-          <?php foreach ($SITE_SUCCESS as $good): ?>
-            <div class="alert alert-success d-flex align-items-center mb-3" style="border-radius:10px;font-size:.87rem;gap:8px">
-              <i class="fa fa-circle-check"></i> <?= $good ?>
-            </div>
-          <?php endforeach ?>
-        <?php endif ?>
-      </div>
+      <?php foreach ($SITE_ERRORS as $error): ?>
+        <div class="alert-dark"><i class="fa fa-circle-exclamation"></i> <?= is_array($error) ? implode(', ', $error) : $error ?></div>
+      <?php endforeach ?>
+      <?php foreach ($SITE_SUCCESS as $good): ?>
+        <div class="alert-dark" style="background:rgba(16,213,150,.1);border-color:rgba(16,213,150,.3);color:#6ee7b7"><i class="fa fa-circle-check"></i> <?= $good ?></div>
+      <?php endforeach ?>
 
       <form action="" method="POST" class="form-valide-with-icon">
 
-        <div class="section-divider">Personal Information</div>
-
-        <div class="row">
-          <div class="col-md-6 form-group mb-3">
-            <label class="form-label-modern">Surname</label>
-            <div class="input-icon-wrap">
-              <i class="fa fa-user field-icon"></i>
-              <input type="text" name="sname" required class="form-control input-modern" placeholder="Your surname">
+        <div class="sec-divider">Personal Information</div>
+        <div class="form-row">
+          <div>
+            <label class="form-lbl">Surname</label>
+            <div class="input-wrap">
+              <i class="fa fa-user field-ico"></i>
+              <input type="text" name="sname" required placeholder="Your surname" class="form-control field-input"/>
             </div>
           </div>
-          <div class="col-md-6 form-group mb-3">
-            <label class="form-label-modern">Other Names</label>
-            <div class="input-icon-wrap">
-              <i class="fa fa-user field-icon"></i>
-              <input type="text" name="oname" required class="form-control input-modern" placeholder="Other names">
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 form-group mb-3">
-            <label class="form-label-modern">State of Origin</label>
-            <div class="input-icon-wrap">
-              <i class="fa fa-map-marker-alt field-icon"></i>
-              <input type="text" name="state" required class="form-control input-modern" placeholder="e.g. Lagos">
-            </div>
-          </div>
-          <div class="col-md-6 form-group mb-3">
-            <label class="form-label-modern">Phone Number</label>
-            <div class="input-icon-wrap">
-              <i class="fa fa-phone field-icon"></i>
-              <input type="tel" name="phone" required class="form-control input-modern" placeholder="08012345678">
+          <div>
+            <label class="form-lbl">Other Names</label>
+            <div class="input-wrap">
+              <i class="fa fa-user field-ico"></i>
+              <input type="text" name="oname" required placeholder="Other names" class="form-control field-input"/>
             </div>
           </div>
         </div>
 
-        <div class="form-group mb-3">
-          <label class="form-label-modern">Email Address</label>
-          <div class="input-icon-wrap">
-            <i class="fa fa-envelope field-icon"></i>
-            <input type="email" name="email" required class="form-control input-modern" placeholder="you@example.com">
-          </div>
-        </div>
-
-        <div class="section-divider">Security</div>
-
-        <div class="row">
-          <div class="col-md-6 form-group mb-3">
-            <label class="form-label-modern">Password</label>
-            <div class="input-icon-wrap">
-              <i class="fa fa-lock field-icon"></i>
-              <input type="password" name="password" id="regPassword" required class="form-control input-modern" placeholder="Create password">
-              <button type="button" class="eye-toggle" onclick="togglePwd('regPassword',this)"><i class="fa fa-eye"></i></button>
+        <div class="form-row">
+          <div>
+            <label class="form-lbl">State of Origin</label>
+            <div class="input-wrap">
+              <i class="fa fa-map-marker-alt field-ico"></i>
+              <input type="text" name="state" required placeholder="e.g. Lagos" class="form-control field-input"/>
             </div>
           </div>
-          <div class="col-md-6 form-group mb-3">
-            <label class="form-label-modern">Confirm Password</label>
-            <div class="input-icon-wrap">
-              <i class="fa fa-lock field-icon"></i>
-              <input type="password" name="cpassword" id="regCPassword" required class="form-control input-modern" placeholder="Confirm password">
-              <button type="button" class="eye-toggle" onclick="togglePwd('regCPassword',this)"><i class="fa fa-eye"></i></button>
+          <div>
+            <label class="form-lbl">Phone Number</label>
+            <div class="input-wrap">
+              <i class="fa fa-phone field-ico"></i>
+              <input type="tel" name="phone" required placeholder="08012345678" class="form-control field-input"/>
             </div>
           </div>
         </div>
 
-        <div class="form-group mb-3">
-          <label class="form-label-modern">Transaction / Pass PIN <span style="color:#888;font-weight:400">(4 digits)</span></label>
-          <div class="input-icon-wrap">
-            <i class="fa fa-key field-icon"></i>
-            <input type="password" name="pin" required class="form-control input-modern" minlength="4" maxlength="4" placeholder="4-digit PIN" inputmode="numeric">
+        <label class="form-lbl">Email Address</label>
+        <div class="input-wrap">
+          <i class="fa fa-envelope field-ico"></i>
+          <input type="email" name="email" required placeholder="you@example.com" class="form-control field-input"/>
+        </div>
+
+        <div class="sec-divider">Security</div>
+        <div class="form-row">
+          <div>
+            <label class="form-lbl">Password</label>
+            <div class="input-wrap">
+              <i class="fa fa-lock field-ico"></i>
+              <input type="password" name="password" id="pwd1" required placeholder="Create password" class="form-control field-input"/>
+              <button type="button" class="eye-btn" onclick="togglePwd('pwd1','eye1')"><i class="fa fa-eye" id="eye1"></i></button>
+            </div>
+          </div>
+          <div>
+            <label class="form-lbl">Confirm Password</label>
+            <div class="input-wrap">
+              <i class="fa fa-lock field-ico"></i>
+              <input type="password" name="cpassword" id="pwd2" required placeholder="Repeat password" class="form-control field-input"/>
+              <button type="button" class="eye-btn" onclick="togglePwd('pwd2','eye2')"><i class="fa fa-eye" id="eye2"></i></button>
+            </div>
           </div>
         </div>
 
-        <div class="form-group mb-4">
-          <label class="form-label-modern">Referral Token <span class="optional-badge">Optional</span></label>
-          <div class="input-icon-wrap">
-            <i class="fa fa-tag field-icon"></i>
-            <input type="text" name="referal" readonly class="form-control input-modern" placeholder="Referral code (if any)"
-              <?php if(isset($_GET['join_with_referal'])){?> value="<?= $_GET['join_with_referal'] ?>" <?php } ?>>
-          </div>
+        <label class="form-lbl">Transaction PIN <span style="color:rgba(255,255,255,.3);font-size:.72rem;font-weight:400">(4 digits)</span></label>
+        <div class="input-wrap">
+          <i class="fa fa-key field-ico"></i>
+          <input type="password" name="pin" required placeholder="4-digit PIN" minlength="4" maxlength="4" inputmode="numeric" class="form-control field-input"/>
         </div>
 
-        <button name="signup" type="submit" value="Submit" class="btn-register">
+        <label class="form-lbl">Referral Code <span class="opt-badge">Optional</span></label>
+        <div class="input-wrap">
+          <i class="fa fa-tag field-ico"></i>
+          <input type="text" name="referal" placeholder="Referral code (if any)" class="form-control field-input" readonly
+            <?php if (isset($_GET['join_with_referal'])) echo 'value="'.htmlspecialchars($_GET['join_with_referal']).'"'; ?>/>
+        </div>
+
+        <button type="submit" name="signup" value="Submit" class="btn-reg">
           <i class="fa fa-user-plus"></i> Create My Account
         </button>
       </form>
 
-      <p class="text-center mt-3" style="font-size:.9rem;color:#888">
-        Already have an account? <a href="login" class="link-accent">Sign in</a>
-      </p>
+      <div class="login-link">Already have an account? <a href="login" class="link-green">Sign in here</a></div>
     </div>
   </div>
 </div>
@@ -224,17 +207,9 @@ $URL_NAME     = 'register';
 <script src="./vendor/toastr/js/toastr.min.js"></script>
 <script src="./js/plugins-init/toastr-init.js"></script>
 <script>
-function togglePwd(id,btn){var f=document.getElementById(id);var i=btn.querySelector('i');if(f.type==='password'){f.type='text';i.className='fa fa-eye-slash'}else{f.type='password';i.className='fa fa-eye'}}
+function togglePwd(id,eyeId){var f=document.getElementById(id),i=document.getElementById(eyeId);if(f.type==='password'){f.type='text';i.className='fa fa-eye-slash'}else{f.type='password';i.className='fa fa-eye'}}
 </script>
-<?php if (count($SITE_ERRORS) > 0): ?>
-  <?php foreach ($SITE_ERRORS as $error): ?>
-    <script>toastr.error("<?= strip_tags($error) ?>","Registration Error!",{positionClass:"toast-top-right",timeOut:5e3,closeButton:!0,progressBar:!0,newestOnTop:!0})</script>
-  <?php endforeach ?>
-<?php endif ?>
-<?php if (count($SITE_SUCCESS) > 0): ?>
-  <?php foreach ($SITE_SUCCESS as $good): ?>
-    <script>toastr.success("<?= strip_tags($good) ?>","Success!",{positionClass:"toast-top-right",timeOut:5e3,closeButton:!0,progressBar:!0,newestOnTop:!0})</script>
-  <?php endforeach ?>
-<?php endif ?>
+<?php foreach ($SITE_ERRORS as $e): ?><script>toastr.error("<?= addslashes(strip_tags(is_array($e)?implode(', ',$e):$e)) ?>","Registration Error",{positionClass:"toast-top-right",timeOut:5e3,closeButton:true,progressBar:true})</script><?php endforeach ?>
+<?php foreach ($SITE_SUCCESS as $s): ?><script>toastr.success("<?= addslashes(strip_tags($s)) ?>","",{positionClass:"toast-top-right",timeOut:5e3,closeButton:true,progressBar:true})</script><?php endforeach ?>
 </body>
 </html>
