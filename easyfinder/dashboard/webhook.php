@@ -26,7 +26,7 @@ if (empty($email) || empty($reference) || $amount_paid <= 0) {
 }
 
 // Connect to the website DB (same as API)
-$conn = mysqli_connect('localhost','eduowrav_bikyensub','bikyensub12345678','eduowrav_bikyensub');
+$conn = mysqli_connect('localhost','YOUR_DB_USER','YOUR_DB_PASSWORD','YOUR_DB_USER');
 if (!$conn) { http_response_code(503); echo "DB_ERROR"; exit; }
 
 // Idempotency — skip if already processed
@@ -90,7 +90,7 @@ mysqli_close($conn);
 // Send FCM push to user's device
 $push_url  = 'https://api.bikyensub.com.ng/sendPushToUser.php';
 $push_data = json_encode([
-    'admin_key' => 'BikyenSubAdmin2026!',
+    'admin_key' => 'YOUR_ADMIN_KEY',
     'email'     => $email,
     'title'     => "Wallet Credited \u{2705}",
     'body'      => "₦" . number_format($amount_paid, 2) . " added. Balance: ₦" . number_format($balance, 2),
