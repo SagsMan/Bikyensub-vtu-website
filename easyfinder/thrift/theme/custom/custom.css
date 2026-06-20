@@ -1,0 +1,35 @@
+
+/* style.css | http://localhost/framework/appsources/reduxApp/theme/css/style.css */
+
+.col-form-label {
+    padding-bottom: calc(0.3rem + 0px); 
+  }
+  
+  .form-group label {
+    margin-bottom: 0;
+    font-weight: bold !important;
+  }
+
+  .card {
+    padding-top: .5rem;
+    padding-left: .5rem;
+  }
+
+
+/* style.css | http://localhost/framework/appsources/reduxApp/theme/css/style.css */
+
+.table thead th {
+     font-size: .9rem !important;
+     padding: 1rem !important;
+  }
+
+
+/* style.css | http://localhost/framework/appsources/reduxApp/theme/css/style.css */
+
+.dataTables_wrapper .dataTable tbody tr td {
+    /* padding: 1.1rem 0.9375rem; */
+    padding: 1rem 0.9375rem;
+  }
+  
+  
+  

@@ -1,0 +1,38 @@
+<?php
+date_default_timezone_set('Africa/Lagos');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'eduowrav_test1');
+define('DB_PASSWORD', 'mnqPXWI@(kPw');
+define('DB_DATABASE', 'eduowrav_test1');
+define('DB_CHARSET', 'utf8mb4');
+define('APP_X', 'wc6yej4vLGZo0p678564r56456erdzsjM8MspBcGT/P.cUU1pzTi');
+define('Privileges_Default_Enabled','');
+define('APP_DEBUG', false);
+define('APP_FEATURE_ENFORCE_ISVERIFIED', true);
+define('APP_FEATURE_ENFORCE_PRIVILEGES', false);
+define('Privilege_ManagePrivileges_Enabled', '-');
+define('APP_FULLNAME', 'Thrift Thrust');
+define('APP_TITLE', 'Thrift Thrust');
+define('APP_VERSION', '1');
+define('APP_EXPIRED', false);
+define('APP_SHORTNAME', 'Thrift Thrust');
+define('APP_TAGLINE', '');
+define('APP_URL', '');
+define('APP_URLPATH', '');
+define('APP_COMPANYSHORTNAME', 'CodeUnit S.I.T.T.E');
+define('APP_COMPANYFULLNAME', 'CodeUnit Software & IT Technologies Enterprise');
+define('APP_COMPANYURL', 'http://www.payboxed.com.ng/thrift');
+define('APP_LOGO', '23-logo-schoolpro-icon.png');
+define('APP_LOGO_MINI', '23-miniLogo-schoolpro-icon.png');
+define('APP_ICON', '23-icon-schoolpro-icon.png');
+define('APP_ROOT', '');
+define('APP_DIR', '');
+define('APP_UI', 'theme');
+define('APP_UPLOADS', 'uploads/');
+define('APP_USERS', 'users/');
+define('APP_DOCUMENTS', 'documents/');
+define('APP_STOREUPLOADPATHINDATABASE', false);
+define('APP_SESSION_NAME', 'Thrift');
+define('APP_MAXROWS_TABLEFIELD', 200);
+include_once('ini_custom.php');
+?>
