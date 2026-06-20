@@ -9,7 +9,7 @@ if (!in_array(1, explode(',', $Auth->admin_role)) && !in_array(2, explode(',', $
 $action = $_GET['action'] ?? '';
 $id     = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
-$conn = mysqli_connect('localhost','eduowrav_bikyensub','bikyensub12345678','eduowrav_bikyensub');
+$conn = mysqli_connect('localhost','YOUR_DB_USER','YOUR_DB_PASSWORD','YOUR_DB_USER');
 
 /* ══════════════════════════════════════════════════════════════════════════ */
 /* DELETE                                                                     */
