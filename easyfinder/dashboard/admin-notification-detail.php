@@ -10,7 +10,7 @@ if (!in_array(1, explode(',', $Auth->admin_role)) && !in_array(2, explode(',', $
 $notif_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 if ($notif_id < 1) { header('Location: admin-notifications'); exit; }
 
-$conn = mysqli_connect('localhost','eduowrav_bikyensub','bikyensub12345678','eduowrav_bikyensub');
+$conn = mysqli_connect('localhost','YOUR_DB_USER','YOUR_DB_PASSWORD','YOUR_DB_USER');
 
 /* ── Load notification ───────────────────────────────────────────────────── */
 $nr = mysqli_query($conn, "SELECT * FROM admin_notifications_tbl WHERE id=$notif_id LIMIT 1");
