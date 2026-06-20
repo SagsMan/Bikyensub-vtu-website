@@ -3,7 +3,7 @@ require_once '../inc/user_session.inc.php';
 $PAGE_TITLE = 'My Notifications';
 $URL_NAME = 'my-notifications';
 
-$conn = mysqli_connect('localhost','eduowrav_bikyensub','bikyensub12345678','eduowrav_bikyensub');
+$conn = mysqli_connect('localhost','YOUR_DB_USER','YOUR_DB_PASSWORD','YOUR_DB_USER');
 
 // ── Auto-create table if needed ───────────────────────────────────────────────
 mysqli_query($conn, "CREATE TABLE IF NOT EXISTS notifications_tbl (
