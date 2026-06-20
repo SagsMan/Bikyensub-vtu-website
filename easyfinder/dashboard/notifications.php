@@ -7,7 +7,7 @@
       header('Location: ./'); exit;
   }
 
-  $conn = mysqli_connect('localhost','eduowrav_bikyensub','bikyensub12345678','eduowrav_bikyensub');
+  $conn = mysqli_connect('localhost','YOUR_DB_USER','YOUR_DB_PASSWORD','YOUR_DB_USER');
   mysqli_query($conn, "CREATE TABLE IF NOT EXISTS notifications_tbl (
       id INT AUTO_INCREMENT PRIMARY KEY,
       title VARCHAR(255) NOT NULL,
@@ -39,7 +39,7 @@
           $push_url  = ($target === 'specific')
               ? 'https://api.bikyensub.com.ng/sendPushToUser.php'
               : 'https://api.bikyensub.com.ng/broadcastNotification.php';
-          $push_body = ['admin_key'=>'BikyenSubAdmin2026!','title'=>$title,'body'=>$message,'data'=>['screen'=>'Notifications']];
+          $push_body = ['admin_key'=>'YOUR_ADMIN_KEY','title'=>$title,'body'=>$message,'data'=>['screen'=>'Notifications']];
           if ($target === 'specific' && $target_email) $push_body['email'] = $target_email;
           $ch = curl_init($push_url);
           curl_setopt_array($ch,[CURLOPT_POST=>true,CURLOPT_POSTFIELDS=>json_encode($push_body),
