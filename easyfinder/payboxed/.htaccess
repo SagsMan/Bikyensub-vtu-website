@@ -1,0 +1,10 @@
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+#RewriteRule ^subscription/([0-9a-zA-Z_-]*)$ api.php?order_id=$1 [NC,L]
+RewriteRule ^dashboard/subscription/([0-9a-zA-Z_-]*)$ dashboard/tv-subscription.php?type=$1 [NC,L]
+RewriteRule ^dashboard/electricity/([0-9a-zA-Z_-]*)$ dashboard/electricity-bill.php?type=$1 [NC,L]
+RewriteRule ^dashboard/recharge/([0-9a-zA-Z_-]*)$ dashboard/topup.php?phone=$1 [NC,L]
+RewriteRule ^dashboard/resultchecker/([0-9a-zA-Z_-]*)$ dashboard/result-checker-pin.php?exam_type=$1 [NC,L]
+#RewriteRule .* index.php
