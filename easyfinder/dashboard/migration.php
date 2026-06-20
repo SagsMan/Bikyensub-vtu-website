@@ -11,7 +11,7 @@ if (!defined('MIGRATION_SAFE')) {
     }
 }
 
-$conn = mysqli_connect('localhost', 'eduowrav_bikyensub', 'bikyensub12345678', 'eduowrav_bikyensub');
+$conn = mysqli_connect('localhost', 'YOUR_DB_USER', 'YOUR_DB_PASSWORD', 'YOUR_DB_USER');
 if (!$conn) {
     die('<h2 style="color:red">DB connection failed: ' . mysqli_connect_error() . '</h2>');
 }
