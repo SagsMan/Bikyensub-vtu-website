@@ -1,0 +1,254 @@
+[20-Mar-2026 03:03:34 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/phone_search.php on line 8
+[20-Mar-2026 03:03:34 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/phone_search.php on line 8
+[20-Mar-2026 03:03:34 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/phone_search.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[24-Mar-2026 17:06:23 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/premium_nin.php on line 8
+[24-Mar-2026 17:06:23 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/premium_nin.php on line 8
+[24-Mar-2026 17:06:23 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/premium_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[24-Mar-2026 17:09:59 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/premium_nin.php on line 8
+[24-Mar-2026 17:09:59 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/premium_nin.php on line 8
+[24-Mar-2026 17:09:59 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/premium_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[26-Mar-2026 04:25:47 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/bvn.php on line 8
+[26-Mar-2026 04:25:47 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/bvn.php on line 8
+[23-Apr-2026 02:17:42 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[23-Apr-2026 02:17:42 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[23-Apr-2026 02:17:42 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[27-Apr-2026 13:44:37 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[27-Apr-2026 13:44:37 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[27-Apr-2026 13:44:37 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[05-May-2026 10:03:09 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[05-May-2026 10:03:09 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[05-May-2026 10:03:09 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[05-May-2026 11:56:12 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[05-May-2026 11:56:12 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[05-May-2026 11:56:12 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[05-May-2026 16:20:26 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[05-May-2026 16:20:26 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[05-May-2026 16:20:26 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[07-May-2026 08:11:11 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[07-May-2026 08:11:11 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[07-May-2026 08:11:11 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[16-May-2026 16:36:36 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[16-May-2026 16:36:36 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[16-May-2026 16:36:36 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[16-May-2026 23:15:15 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[16-May-2026 23:15:15 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[16-May-2026 23:15:15 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[17-May-2026 17:14:49 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[17-May-2026 17:14:49 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[17-May-2026 17:14:49 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[22-May-2026 14:29:08 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/premium_nin.php on line 8
+[22-May-2026 14:29:08 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/premium_nin.php on line 8
+[22-May-2026 14:29:08 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/premium_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[22-May-2026 14:30:32 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/improved_nin.php on line 8
+[22-May-2026 14:30:32 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/improved_nin.php on line 8
+[22-May-2026 14:30:32 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/improved_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[26-May-2026 10:27:13 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[26-May-2026 10:27:13 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[26-May-2026 10:27:13 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[26-May-2026 10:31:02 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[26-May-2026 10:31:02 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[26-May-2026 10:31:02 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[30-May-2026 16:49:47 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[30-May-2026 16:49:47 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[30-May-2026 16:49:47 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[30-May-2026 18:24:15 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[30-May-2026 18:24:15 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[30-May-2026 18:24:15 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[31-May-2026 15:03:10 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[31-May-2026 15:03:10 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[31-May-2026 15:03:10 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[31-May-2026 18:35:17 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[31-May-2026 18:35:17 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[31-May-2026 18:35:17 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[31-May-2026 18:39:47 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[31-May-2026 18:39:47 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[31-May-2026 18:39:47 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[31-May-2026 18:41:27 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[31-May-2026 18:41:27 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[31-May-2026 18:41:27 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[02-Jun-2026 14:10:42 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[02-Jun-2026 14:10:42 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[02-Jun-2026 14:10:42 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[02-Jun-2026 14:24:14 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[02-Jun-2026 14:24:14 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[02-Jun-2026 14:24:14 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[02-Jun-2026 14:45:53 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[02-Jun-2026 14:45:53 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[02-Jun-2026 14:45:53 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[03-Jun-2026 10:47:05 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[03-Jun-2026 10:47:05 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[03-Jun-2026 10:47:05 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[03-Jun-2026 17:42:01 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[03-Jun-2026 17:42:01 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[03-Jun-2026 17:42:01 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81
+[10-Jun-2026 20:12:01 Africa/Lagos] PHP Warning:  Undefined variable $Auth in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[10-Jun-2026 20:12:01 Africa/Lagos] PHP Warning:  Attempt to read property "email" on null in /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php on line 8
+[10-Jun-2026 20:12:01 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND id = ? ORDER BY created_at DESC' at line 1 in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php:81
+Stack trace:
+#0 /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php(81): PDO->prepare()
+#1 /home/eduowrav/bikyensub.com.ng/easyfinder/app/Controller/AdminController.php(272): EduTech\DB\Conn->run_select()
+#2 /home/eduowrav/bikyensub.com.ng/easyfinder/dashboard/slip/regular_nin.php(8): EduTech\Controller\AdminController->Get_All_NIN_Details()
+#3 {main}
+  thrown in /home/eduowrav/bikyensub.com.ng/easyfinder/app/DB/Conn.php on line 81

@@ -1,0 +1,188 @@
+1. *Header Search Input:*
+   - The text in the header search input field is partially hidden, potentially due to excessive padding.
+
+2. *Login & Security Section:*
+   - Unable to update or add data in the Login & Security section. An error message, "Failed to update data," is displayed.
+   - The popup buttons in the "Add Mobile Phone Number" section are misaligned.
+   - Unable to create a business account. The error message "Failed to create data" appears when attempting to submit.
+
+3. *Bloomzom Buyer/Seller Center:*
+   - The Bloomzom Buyer/Seller Center is not opening.
+   - Unable to add an account on the Switch Account page.
+
+4. *Add Address:*
+   - The phone number input field in the "Add New Address" section should display the phone number keypad instead of the default keyboard.
+   - The placeholder for the second street address incorrectly indicates that it is optional, but it is required when submitting the phone number.
+   - The "Add Address" functionality fails, and the error message "Failed to create data" appears.
+
+5. *Add New Pickup Location:*
+    - The "Add New Pickup Location" feature fails to fetch data, and the error message "Failed to fetch data" is displayed when attempting to open it.
+    - Unable to add a new pickup location due to the error mentioned above.
+
+6. *Manage Your Profile Page:*
+    - Tapping on "Edit Mobile Number" directs to the "Change Your Name" screen instead of the intended mobile number editing screen.
+    - Tapping on "Edit PIN" directs to the "Update Password" screen instead of the intended PIN update screen.
+    - The "Edit Video" option under enrolled programs is not opening.
+    - Clicking on "Shopping" under the enrolled programs does not trigger the Clothing & Shoes dropdown. The dropdown operations are not functioning.
+    - Other dropdowns across the section are unresponsive when clicked.
+
+7. *Home Screen - Manage Accounts/IDs Dropdown:*
+    - The "Manage Your Accounts/IDs" dropdown on the Home screen is not responsive.
+
+8. *Easy Click Settings:*
+    - The "Failed to fetch data" error appears when attempting to open the Easy Click Settings.
+
+    *FSA/HSA Card Dropdown:*
+    - The "Add on FSA or HSA Card," "Add a Credit or Debit Card," and "Add on EBT Card" dropdowns are unresponsive when clicked.
+
+    *Personal Checking Account Form:*
+    - After filling out the form for adding a personal checking account, the error message "Failed to create data" appears upon submission.
+
+    *Transactions Tab - Continue Shopping Button:*
+    - The "Continue Shopping" button under the Transactions tab is not responsive.
+
+    *Overview Tab:*
+    - The Overview tab displays the message "Failed to fetch data" when opened.
+
+    *Settings Tab - Dropdown Issues:*
+    - The dropdowns under the Settings tab are not responsive.
+
+
+9. *Subscription & Membership:*
+    - The filter dropdown does not display options.
+    - "Don't see your Subscription?" link is unresponsive.
+    - "Contact Us" button is not clickable.
+    - "Help" link is not functioning.
+10. *Manage Bloomzon Elite Membership:*
+    - "Continue Shopping" button is not responsive.
+11. *Manage Content & Devices:*
+    - "Edit" button under the Devices tab is not clickable.
+12 *Shop For Kids By Age* 
+    - The dropdown is not functioning.
+13 *Teens Program & Teens Account:*
+    - "Create a teen login now" link is not responsive.
+14. *Bloomzom Key Settings*
+    - Unable to update ZIP code. Error message: "Failed to update data" appears upon submission.
+15. *Bloomzom Logistics:*
+    - "LCL Shipping" and "Other Shipping Services" links are unresponsive.
+    *Air Freight - Under the Popular category:*
+    - Tabs (All, Customize, Ready to Ship, Suppliers) are not clickable.
+    - Filter dropdowns are not functional.
+16. *Store Analytics*
+    - "Submit your preference" button does not work. Error message: "Failed to update data" appears.
+
+    *============================= Payment and Discount =============================*
+17. *Your Payment:*
+    - The Overview & Wallet tab display the message "Failed to fetch data" when opened.
+    - Dropdowns under the Settings tab are unresponsive.
+18. *Bloomzom Wallet:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - Toggle icon to toggle the visiblity for hashed digits is missing.
+    - "Deposit" button is unresponsive.
+    - The popup buttons to get verification code are misaligned.
+    - The Get verification code isn't performing any operation.
+    - Service icons ("Utility Payment", "Mobile Top-ups", "My Vouchers", etc.) are not clickable.
+18. *Bloomzom Coupon:*
+    - The page displays the message "Failed to fetch data" when opened.
+18. *Bloomzom Coins:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - Daily Check-In isn't working properly just showing the success message.
+19. *Buy And Manage Gift Cards:*
+    - The page displays the message "Failed to fetch data" when opened.
+    *Redeem Another Gift Card*
+        - The page displays the message "Failed to fetch data" when opened.
+        - Scan your claim code is unresponsive.
+        - Apply claim code is not working. The error message "Failed to create data" appears.
+            *Purchase a gift card*
+            - The Buttons there are unclickable.
+    *Reload your balance*
+        - The page displays the message "Failed to fetch data" when opened.
+        - "Buy Now" button is not clciking.
+    *Auto-Reload Setting*
+        - The page displays the message "Failed to fetch data" when opened.
+        - "Add a credit or debit card" button is not clciking.
+        - "Save your Auto-Reload Setting" button is not clciking.
+20. *Your Bloomzom Gift Cards:*
+    - "Help with Gift Card" button is not clciking.
+    - "Contact Customer Service on Gift Card" bottomsheet list button options are not clciking, Except "Mail Us".
+21. *Shop With Point Bonus:*
+    - Unable to enroll a new rewards account.
+22. *Home Screen - Buy On Bloomzom & Pick-Up Reward Dropdown:*
+    - The "Buy On Bloomzom & Pick-Up Reward" dropdown on the Home screen is not responsive.
+
+    *============================= Message Center =============================*
+23. *Your Messages to Bloomzom Help Desk*
+    - "All Messages" displays the message "Failed to fetch data" when opened.
+    - Dropdowns on the Buyer/Seller Messages page are unresponsive.
+
+    *============================= Notification Settings =============================*
+24. *Orders:*
+    - The page displays the message "Failed to fetch data" when opened.
+25. *Promotion:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - Unable to toggle the "Receive Promotional Notification", "Exclusive Deals" and "Early Access" Statuses.
+    - Communication channel preferences cannot be selected.
+    - Unable to to subscribe to promotional notification.
+26. *Activities:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - Unable to toggle the status of all the toggleable on the page.
+27. *Deals Or Sales Alert:*
+    - Dropdowns are unresponsive. Aleast they should have default display when they are clicked.
+28. *Purchase On Your Cart Reminder:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - Unable to toggle the status of all the toggleable on the page.
+28. *My Inquires:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - Unable to toggle the status of all the toggleable on the page.
+    - Can't subscribe to inquiry notifications.
+
+    *============================= Personalized Content =============================*
+29. *My Profile:*
+    - Profile Picture not updating. The error message "Failed to update data" appears.
+    - Profile details are not updating.
+30. *My Fan Shop:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - The "Shop all" buttons are not clicking.
+30. *My Wishlish:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - "Add All to Cart" button is not ment to show when there is nothing in the whishlist.
+31. *My Buy again List* - This is not clicking.
+32. *My Garage:*
+    - Unable to add new vehicle.
+33. *My Browsing History:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - Unable to toogle the browsing history status.
+34. *For Your Pets:*
+    - The page displays the message "Failed to fetch data" when opened.
+35. *My Catalog*, *My Following*, *My Request Quotes List* and *My Sample Request List* 
+    - These are not responsive.
+36. *My Favorites:*
+    - The "Chat Now" Buttons are not clicking.
+
+    *============================= Entertainment =============================*
+37. *Games:*
+    - "GoGo Match", "Merge Boss" and "Style Star" are not clickable.
+    - "Invite Friends" Share code is giving error message.
+38. *Spin & Win* is not clickable.
+
+    *============================= App Preference =============================*
+39. *Your Ads Privacy Selection:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - Unable to save selected preferences. The error message "Failed to update data" appears.
+40. *Your Bloomzom Camera Barcode Settings:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - All the Operations there are not functional.
+41. *App Image Quality:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - Unable to update the settings.
+42. *App Video Preference:*
+    - The page displays the message "Failed to fetch data" when opened.
+    - Unable to update the settings.
+
+    *============================= App Suggestions and feedback =============================*
+43. *Rate Bloom App* - This is not clickable.
+44. *Make Suggestions To Bloomzom App:*
+    - Unable to submit suggestions.
+
+45. *Header Icons: *
+    - Scan and mic icons in the header are unresponsive.
