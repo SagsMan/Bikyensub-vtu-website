@@ -7,7 +7,7 @@ if (!in_array(1, explode(',', $Auth->admin_role)) && !in_array(2, explode(',', $
     header('Location: ./'); exit;
 }
 
-$conn = mysqli_connect('localhost','eduowrav_bikyensub','bikyensub12345678','eduowrav_bikyensub');
+$conn = mysqli_connect('localhost','YOUR_DB_USER','YOUR_DB_PASSWORD','YOUR_DB_USER');
 
 /* ── Create tables if not exist ───────────────────────────────────────────── */
 mysqli_query($conn, "CREATE TABLE IF NOT EXISTS admin_notifications_tbl (
