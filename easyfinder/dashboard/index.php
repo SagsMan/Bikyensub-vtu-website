@@ -7,7 +7,7 @@ $URL_NAME = 'dashboard';
 $error = '';
 
 // PaymentPoint virtual account lookup
-$_pp_c = mysqli_connect('localhost','eduowrav_bikyensub','bikyensub12345678','eduowrav_bikyensub');
+$_pp_c = mysqli_connect('localhost','YOUR_DB_USER','YOUR_DB_PASSWORD','YOUR_DB_USER');
 $_pp_q = mysqli_query($_pp_c,
     "SELECT acc_no,bank_name,acc_name,acc_no2,bank_name2,acc_name2
        FROM users_tbl WHERE email='".mysqli_real_escape_string($_pp_c,$Auth->email)."' LIMIT 1");
