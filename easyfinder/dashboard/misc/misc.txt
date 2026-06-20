@@ -1,0 +1,38 @@
+//Index - 957
+<?php if ((empty($Auth->nin) && empty($Auth->bvn)) || empty($Auth->monnify_account_details)):?>
+            <div class="modal fade" id="KYCModal">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">KYC Verification</h5>
+                            <button type="button" class="close" data-dismiss="modal"><span>&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="basic-form">
+                                <form id="kyc-form" method="post">
+                                    <div class="alert alert-info">Enter either your <strong>NIN</strong> or <strong>BVN</strong> to generate account numbers.</div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-12">
+                                            <label>BVN</label>
+                                            <input type="text" class="form-control" placeholder="Enter BVN" id="bvn" 
+                                                name="bvn" pattern="\d{11}" maxlength="11">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label>NIN</label>
+                                            <input type="text" class="form-control" placeholder="Enter NIN" id="nin" 
+                                                name="nin" pattern="\d{11}" maxlength="11">
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <span class="spinner-grow spinner-grow-sm text-light d-none" id="spinner" role="status" aria-hidden="true"></span>
+                                        Save Changes
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php endif; ?>

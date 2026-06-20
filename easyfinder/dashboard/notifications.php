@@ -33,8 +33,20 @@
       $ins = mysqli_query($conn,
           "INSERT INTO notifications_tbl(title,message,type,target,target_email,created_by,status)
            VALUES('$title','$message','$type','$target',$te_sql,'$admin_email',1)");
-      if ($ins) array_push($SITE_SUCCESS, 'Notification sent successfully!');
-      else array_push($SITE_ERRORS, 'Failed: ' . mysqli_error($conn));
+      if ($ins) {
+          array_push($SITE_SUCCESS, 'Notification sent successfully!');
+          // Also send FCM push to app users
+          $push_url  = ($target === 'specific')
+              ? 'https://api.bikyensub.com.ng/sendPushToUser.php'
+              : 'https://api.bikyensub.com.ng/broadcastNotification.php';
+          $push_body = ['admin_key'=>'BikyenSubAdmin2026!','title'=>$title,'body'=>$message,'data'=>['screen'=>'Notifications']];
+          if ($target === 'specific' && $target_email) $push_body['email'] = $target_email;
+          $ch = curl_init($push_url);
+          curl_setopt_array($ch,[CURLOPT_POST=>true,CURLOPT_POSTFIELDS=>json_encode($push_body),
+              CURLOPT_HTTPHEADER=>['Content-Type: application/json'],CURLOPT_RETURNTRANSFER=>true,
+              CURLOPT_TIMEOUT=>8,CURLOPT_SSL_VERIFYPEER=>false]);
+          curl_exec($ch); curl_close($ch);
+      } else array_push($SITE_ERRORS, 'Failed: ' . mysqli_error($conn));
   }
 
   if (isset($_GET['delete_notif']) && is_numeric($_GET['delete_notif'])) {

@@ -1,0 +1,644 @@
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"must not be blank","responseCode":"99"}
+{"requestSuccessful":false,"responseMessage":"BVN or NIN is required.","responseCode":"99"}
