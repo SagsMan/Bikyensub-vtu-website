@@ -26,7 +26,7 @@ if (empty($email) || empty($reference) || $amount_paid <= 0) {
 }
 
 // Connect to the website DB (same as API)
-$conn = mysqli_connect('localhost','YOUR_DB_USER','YOUR_DB_PASSWORD','YOUR_DB_USER');
+$conn = mysqli_connect('localhost','eduowrav_bikyensub','YOUR_DB_PASSWORD','eduowrav_bikyensub');
 if (!$conn) { http_response_code(503); echo "DB_ERROR"; exit; }
 
 // Idempotency — skip if already processed
