@@ -7,7 +7,7 @@
       header('Location: ./'); exit;
   }
 
-  $conn = mysqli_connect('localhost','YOUR_DB_USER','YOUR_DB_PASSWORD','YOUR_DB_USER');
+  $conn = mysqli_connect('localhost','eduowrav_bikyensub','YOUR_DB_PASSWORD','eduowrav_bikyensub');
   mysqli_query($conn, "CREATE TABLE IF NOT EXISTS notifications_tbl (
       id INT AUTO_INCREMENT PRIMARY KEY,
       title VARCHAR(255) NOT NULL,
