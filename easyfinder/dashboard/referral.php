@@ -3,7 +3,7 @@ require_once '../inc/user_session.inc.php';
 $PAGE_TITLE = 'Referral Program';
 $URL_NAME   = 'referral';
 
-$conn = mysqli_connect('localhost','YOUR_DB_USER','YOUR_DB_PASSWORD','YOUR_DB_USER');
+$conn = mysqli_connect('localhost','eduowrav_bikyensub','YOUR_DB_PASSWORD','eduowrav_bikyensub');
 
 // Ensure referal_token exists for this user
 $email_esc = mysqli_real_escape_string($conn, $Auth->email);
