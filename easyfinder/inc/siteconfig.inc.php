@@ -32,6 +32,9 @@
 	define('VTPASS_PASSWORD', $settings['vtpass_password']);
 	define('VTPASS_LINK', $settings['vtpass_link']);
 	define('VTPASS_AUTH', base64_encode(VTPASS_USERNAME.":".VTPASS_PASSWORD));
+	define('VTPASS_API_KEY', $settings['vtpass_api_key'] ?? '');
+	define('VTPASS_PUBLIC_KEY', $settings['vtpass_public_key'] ?? '');
+	define('VTPASS_SECRET_KEY', $settings['vtpass_secret_key'] ?? '');
 	define('COMPANY_CAC_PRICE', $settings['company_cac_price']);
 	define('BUSINESS_CAC_PRICE', $settings['business_cac_price']);
 	define('BVN_VERIFICATION_PRICE', $settings['bvn_verification_price']);
