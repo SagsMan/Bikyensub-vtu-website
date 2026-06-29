@@ -1099,7 +1099,7 @@ class TopupController extends C_base
     //             'Content-Type: application/json',
     //             'Accept: application/json',
     //             'api-key: ' . VTPASS_API_KEY,
-                'secret-key: ' . VTPASS_SECRET_KEY,
+    //             'secret-key: ' . VTPASS_SECRET_KEY,
     //         ],
     //     ]);
 
